@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 901px;
+    margin: 0 auto;
+}
+
+.menu{
+    margin-bottom: 100px;
+    margin-top: 78px;
+}
+
+.site-navigation li{
+    display: inline-block;
+}
+
+
+.site-navigation{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    list-style: none;
+    color: darkgrey;
+}
+
+.site-navigation a{
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+
+.lifestyle a{
+    color: blue;
+}
+
+.lifestyle{
+    margin-right: 123px;
+    color: grey;
+}
+
+.photodiary{
+    margin-right: 105px;
+    color: grey;
+}
+.music{
+    margin-right: 95px;
+    color: grey;
+}
+
+.main-info{
+    margin-bottom: 58px;
+}
+
+.info-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.list-item{
+    width: 421px;
+    display: inline-block;
+    margin-right: 55px;
+    margin-bottom: 134px;
+}
+
+.list-item:nth-child(2n){
+    margin-right: 0;
+}
+
+.list-item:nth-last-child(-n + 2){
+    margin-bottom: 0;
+}
+
+.list-item-p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: grey;
+}
+
+.list-item h2{
+    color: grey;
+    font-size: 30px;
+}
+
+.list-item-pp{
+    font-size: 14px;
+    color:grey;
+}
+
+.moveon-button{
+    margin: 0;
+    padding: 22px 34px;
+    background-color: white;
+    font-size: 20px;
+    width: 164px;
+    height: 60px;
+    color: grey;
+    cursor: pointer;
+}
+
+.moveon{
+    margin-bottom: 70px;
+    text-align: center;
+}
+    
