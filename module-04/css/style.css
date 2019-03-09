@@ -6,7 +6,9 @@
 }
 
 body{
-    padding: 38px 274px 82px 232px;
+    padding-top: 38px;
+    padding-bottom: 82px;
+    padding-left: 232px;
 }
 
 .container{
