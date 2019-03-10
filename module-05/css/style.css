@@ -15,6 +15,7 @@ body {
     height: auto;
     overflow: hidden;
     margin: auto;
+    margin-bottom: 38px;
 
 }
 
@@ -73,22 +74,13 @@ img {
     color: rgb(26, 188, 156);
 }
 
-.navig{
-    margin-bottom: 38px;
-}
-
 .wrap {
     position: relative;
     margin-bottom: 102px;
-}
-
-ul {
-    list-style: none;
-}
-
-.slide {
-    position: relative;
-    margin: auto;
+    background-image: url(../img/Rectangle\ 1.png);
+    width: 100%;
+    height: 602px;
+    background-size: cover;
 }
 
 .text {
@@ -96,7 +88,6 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .text p {
@@ -116,28 +107,25 @@ ul {
     font-size: 25px;
 }
 
-.click {
-    position: absolute;
+.text::before{
+    content: "";
+    margin-right: 80px;
     width: 104px;
     height: 104px;
     background: rgb(26, 188, 156);
-    border: none;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-.click1{
-    left: 0;
-    background-image: url(/img/left.png);
+    background-image: url(../img/left.png);
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
-.click2{
-    right: 0;
-    background-image: url(/img/right.png);
+.text::after{
+    content: "";
+    display: inline-block;
+    margin-left: 85px;
+    width: 104px;
+    height: 104px;
+    background: rgb(26, 188, 156);
+    background-image: url(../img/right.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -165,7 +153,7 @@ ul {
 .item{
     width: 1110px;
     margin-bottom: 100px;
-    
+  
 }
 
 .item1, .item2, .item3, .item4{
@@ -226,8 +214,7 @@ ul {
     z-index: 1;
     width: 236px;
     height: 262px;
-    opacity: 0.549;
-    background-color: rgb(0, 0, 0);    
+    background-color: rgba(0, 0, 0, 0.322);    
 
 }
 
@@ -242,23 +229,23 @@ ul {
     width: 50px;
     height: 50px;
     border: 1.5px solid white; 
-    background-color: rgb(0, 0, 0);    
+    background-color: rgba(0, 0, 0, 0.322);    
 }
 
 .but1{
-    background-image: url(/img/серд.png);
+    background-image: url(../img/серд.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .but2{
-    background-image: url(/img/.png);
+    background-image: url(../img/.png);
     background-repeat: no-repeat;
     background-position: center;
 }
   
 .but3{
-    background-image: url(/img/час.png);
+    background-image: url(../img/час.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -270,8 +257,8 @@ ul {
 .bigbut{
     width: 166px;
     height: 50px;
-    background-color: rgb(0, 0, 0);
-    background-image: url(/img/тележка.png);
+    background-color: rgba(0, 0, 0, 0.322);
+    background-image: url(../img/тележка.png);
     background-repeat: no-repeat;
     background-position: 8%;
     font-size: 14px;
@@ -313,7 +300,9 @@ footer{
     padding-top: 38px;
 }
 
-.footerp::last-word{
+
+
+.textSpan {
     color: rgb(26, 188, 156);
 }
   
