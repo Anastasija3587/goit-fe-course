@@ -107,9 +107,11 @@ img {
     font-size: 25px;
 }
 
-.text::before{
+.wrap::before{
     content: "";
-    margin-right: 80px;
+    position: absolute;
+    left: 15%;
+    top: 41%;
     width: 104px;
     height: 104px;
     background: rgb(26, 188, 156);
@@ -118,8 +120,11 @@ img {
     background-repeat: no-repeat;
 }
 
-.text::after{
+.wrap::after{
     content: "";
+    position: absolute;
+    right: 15%;
+    top: 41%;
     display: inline-block;
     margin-left: 85px;
     width: 104px;
