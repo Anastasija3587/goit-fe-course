@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 body {
@@ -11,7 +11,6 @@ body {
 
 .container {
     max-width: 1200px;
-    overflow: hidden;
     margin: auto;
 }
 
@@ -37,7 +36,6 @@ body {
     width: 462px;
     justify-content: space-between;
     align-content: center;
-
 }
 
 .list a {
@@ -48,17 +46,10 @@ body {
     color: rgb(26, 188, 156);
 }
 
-/* .color::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: red;
-   
-} */
-
 .color:hover {
     color: red;
+    padding-bottom: 12px;
+    border-bottom: 2px solid red;
 }
 
 .title {
@@ -115,15 +106,15 @@ body {
     margin-bottom: 100px;
 }
 
-.icon{
+.icon {
     width: 20%;
 }
 
-.info{
+.info {
     width: 80%;
 }
 
-.info h3{
+.info h3 {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(51, 51, 51);
@@ -131,7 +122,7 @@ body {
     margin-bottom: 20px;
 }
 
-.info p{
+.info p {
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     color: rgb(153, 153, 153);
@@ -169,7 +160,7 @@ body {
     margin-bottom: 46px;
 }
 
-.textp{
+.textp {
     width: 942px;
     margin: auto;
     font-size: 15px;
@@ -180,21 +171,168 @@ body {
     line-height: 1.6;
 }
 
-.team{
+.team {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 82px;
 }
-  
-.teams{
+
+.teams {
     width: 380px;
-    height: 624px;
+    
 }
 
+.image{
+    margin-bottom: 30px;
+    display: flex;
 
-
-
-.foot{
-    height: 62px;
 }
-  
 
+.image1{
+    width: 380px;
+    height: 470px;
+    background-image: url(../img/Layer\ 16@1X.png);
+}
+
+.image2{
+    width: 380px;
+    height: 470px;
+    background-image: url(../img/Layer\ 19.png);
+}
+
+.image3{
+    width: 380px;
+    height: 470px;
+    background-image: url(../img/Layer\ 18.png);
+}
+
+.name {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.position {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+
+.image{
+    transition: all 200ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inner{
+    width: 224px;
+    height: 56px;
+    display: none;
+    background-color: rgb(252, 227, 138);
+}
+
+.ic{
+    outline: 1px solid rgba(243, 129, 129, 0.384);
+    width: 56px;
+    padding: 15px 20px 15px 23px;
+}
+
+.facebook{
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twit{
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pin{
+    background-image: url(../img/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.insta{
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-item1:hover .image1{
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767), rgba(252, 227, 138, 0.699)), url(../img/Layer\ 16@1X.png);
+}
+
+.team-item2:hover .image2{
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767), rgba(252, 227, 138, 0.699)), url(../img/Layer\ 19.png);
+}
+
+.team-item3:hover .image3{
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767), rgba(252, 227, 138, 0.699)), url(../img/Layer\ 18.png);
+}
+
+.teams:hover .inner{
+    display: flex;
+}
+
+.ic:hover{
+    background-color: rgb(79, 228, 198);
+}
+
+.foot {
+    padding: 12px 0 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+
+.textSpan{
+    color: red;
+}
+
+.email{
+    width: 230px;
+    height: 40px;
+    border: 1px 0 1px 1px solid rgb(231, 231, 231);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(204, 204, 204);
+    padding-left: 13px;
+}
+
+.subscribe{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(79, 228, 198);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: -5px;
+}
