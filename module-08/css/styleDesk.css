@@ -1,0 +1,65 @@
+@media(min-width: 1440px) {
+    body{
+        padding-bottom: 74px;
+    }
+    .container {
+        width: 1440px;
+    }
+    .but{
+        left: 72%;
+        top: 6%;
+    }
+    .logo{
+        left: 22%;
+        top: 6%;
+    }
+
+    .info {
+        width: 504px;
+        top: 29%;
+        left: 33%;
+    }
+
+    .title {
+        font-size: 52px;
+        margin-bottom: 40px;
+    }
+    .Two{
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+    .clickInfo{
+        width: 225px;
+        margin-left: 128px;
+    }
+
+    .content {
+        width: 65.2777777%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .partner {
+        width: 194px;
+    }
+    .backgr{
+        margin-bottom: 70px;
+    }
+    .title2{
+        margin-bottom: 34px;
+    }
+    .partner{
+        margin-bottom: 0;
+    }
+    .nameorder{
+        order: 1;
+    }
+    .nameorder2{
+        order: 1;
+    }
+    .clickpartners{
+        width: 192px;
+        margin-left: 624px;
+    }
+}
