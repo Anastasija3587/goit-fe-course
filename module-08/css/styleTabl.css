@@ -1,4 +1,4 @@
-@media(min-width: 48rem) and (max-width: 90rem) {
+@media(min-width: 48rem) and (max-width: 89.9375rem) {
     body {
         padding-bottom: 2.5rem;
     }
@@ -52,8 +52,7 @@
 
     .backgr {
         margin-bottom: 4.5rem;
-        background-image: url(../img/Tabl.png);
-        height: 43.75rem;
+        padding: 21.875rem 0 21.875rem 0;
     }
 
     .title2 {

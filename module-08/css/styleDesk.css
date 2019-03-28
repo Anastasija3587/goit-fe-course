@@ -6,11 +6,11 @@
         width: 90rem;
     }
     .but{
-        left: 72%;
+        left: 71%;
         top: 6%;
     }
     .logo{
-        left: 22%;
+        left: 17%;
         top: 6%;
     }
 
@@ -45,8 +45,7 @@
     }
     .backgr{
         margin-bottom: 4.375rem;
-        background-image: url(../img/imgesktop.png);
-        height: 43.75rem;
+        padding: 21.875rem 0 21.875rem 0;
     }
     .title2{
         margin-bottom: 2.125rem;
