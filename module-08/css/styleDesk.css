@@ -1,9 +1,9 @@
-@media(min-width: 1440px) {
+@media(min-width: 90rem) {
     body{
-        padding-bottom: 74px;
+        padding-bottom: 4.625rem;
     }
     .container {
-        width: 1440px;
+        width: 90rem;
     }
     .but{
         left: 72%;
@@ -15,39 +15,41 @@
     }
 
     .info {
-        width: 504px;
+        width: 31.5rem;
         top: 29%;
         left: 33%;
     }
 
     .title {
-        font-size: 52px;
-        margin-bottom: 40px;
+        font-size: 3.25rem;
+        margin-bottom: 2.5rem;
     }
     .Two{
-        font-size: 24px;
-        margin-bottom: 35px;
+        font-size: 1.5rem;
+        margin-bottom: 2.1875rem;
     }
     .clickInfo{
-        width: 225px;
-        margin-left: 128px;
+        width: 14.0625rem;
+        margin-left: 8rem;
     }
 
     .content {
         width: 65.2777777%;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
 
     .partner {
-        width: 194px;
+        width: 12.125rem;
     }
     .backgr{
-        margin-bottom: 70px;
+        margin-bottom: 4.375rem;
+        background-image: url(../img/imgesktop.png);
+        height: 43.75rem;
     }
     .title2{
-        margin-bottom: 34px;
+        margin-bottom: 2.125rem;
     }
     .partner{
         margin-bottom: 0;
@@ -59,7 +61,7 @@
         order: 1;
     }
     .clickpartners{
-        width: 192px;
-        margin-left: 624px;
+        width: 12rem;
+        margin-left: 39rem;
     }
 }

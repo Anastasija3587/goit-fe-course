@@ -1,68 +1,83 @@
-@media(min-width: 768px) and (max-width: 1440px) {
-    body{
-        padding-bottom: 40px;
+@media(min-width: 48rem) and (max-width: 90rem) {
+    body {
+        padding-bottom: 2.5rem;
     }
+
     .container {
-        width: 768px;
+        width: 48rem;
     }
-    .but{
+
+    .but {
         left: 73%;
         top: 6%;
     }
-    .logo{
+
+    .logo {
         left: 7%;
         top: 6%;
     }
 
     .info {
-        width: 503px;
+        width: 31.4375rem;
         top: 29%;
         left: 18%;
     }
 
     .title {
-        font-size: 52px;
-        margin-bottom: 40px;
+        font-size: 3.25rem;
+        margin-bottom: 2.5rem;
     }
-    .Two{
-        font-size: 24px;
-        margin-bottom: 34px;
+
+    .Two {
+        font-size: 1.5rem;
+        margin-bottom: 2.125rem;
     }
-    .clickInfo{
-        width: 226px;
-        margin-left: 128px;
+
+    .clickInfo {
+        width: 14.125rem;
+        margin-left: 8rem;
     }
 
     .content {
-        width: 59,635416666%;
+        width: 59, 635416666%;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
+
     .partner {
-        width: 194px;
+        width: 12.125rem;
     }
-    .backgr{
-        margin-bottom: 72px;
+
+    .backgr {
+        margin-bottom: 4.5rem;
+        background-image: url(../img/Tabl.png);
+        height: 43.75rem;
     }
-    .title2{
-        margin-bottom: 32px;
+
+    .title2 {
+        margin-bottom: 2rem;
     }
-    .partner{
-        margin-bottom: 58px;
+
+    .partner {
+        margin-bottom: 3.625rem;
     }
+
     .partner:nth-child(even) {
         margin-bottom: 0;
     }
-    .nameorder{
+
+    .nameorder {
         order: 1;
     }
-    .nameorder2{
+
+    .nameorder2 {
         order: 1;
     }
-    .clickpartners{
-        width: 192px;
-        margin-left: 288px;
+
+    .clickpartners {
+        width: 12rem;
+        margin-left: 18rem;
     }
 }
