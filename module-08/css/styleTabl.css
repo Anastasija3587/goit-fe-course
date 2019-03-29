@@ -13,14 +13,14 @@
     }
 
     .logo {
-        left: 7%;
+        left: 20%;
         top: 6%;
+        transform: translateX(0);
     }
 
     .info {
         width: 31.4375rem;
         top: 29%;
-        left: 18%;
     }
 
     .title {

@@ -10,14 +10,14 @@
         top: 6%;
     }
     .logo{
-        left: 17%;
+        left: 23%;
         top: 6%;
+        transform: translateX(-50%);
     }
 
     .info {
         width: 31.5rem;
         top: 29%;
-        left: 33%;
     }
 
     .title {
