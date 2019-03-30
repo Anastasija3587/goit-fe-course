@@ -1,10 +1,10 @@
-@media(min-width: 48rem) and (max-width: 89.9375rem) {
+@media(min-width: 768px) and (max-width: 1439px) {
     body {
-        padding-bottom: 2.5rem;
+        padding-bottom: 40px;
     }
 
     .container {
-        width: 48rem;
+        max-width: 768px;
     }
 
     .but {
@@ -19,23 +19,23 @@
     }
 
     .info {
-        width: 31.4375rem;
+        width: 503px;
         top: 29%;
     }
 
     .title {
-        font-size: 3.25rem;
-        margin-bottom: 2.5rem;
+        font-size: 52px;
+        margin-bottom: 40px;
     }
 
     .Two {
-        font-size: 1.5rem;
-        margin-bottom: 2.125rem;
+        font-size: 24px;
+        margin-bottom: 34px;
     }
 
     .clickInfo {
-        width: 14.125rem;
-        margin-left: 8rem;
+        width: 226px;
+        margin-left: 128px;
     }
 
     .content {
@@ -43,24 +43,24 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-bottom: 2.5rem;
+        margin-bottom: 40px;
     }
 
     .partner {
-        width: 12.125rem;
+        width: 194px;
     }
 
     .backgr {
-        margin-bottom: 4.5rem;
-        padding: 21.875rem 0 21.875rem 0;
+        margin-bottom: 72px;
+        padding: 350px 0 350px 0;
     }
 
     .title2 {
-        margin-bottom: 2rem;
+        margin-bottom: 32px;
     }
 
     .partner {
-        margin-bottom: 3.625rem;
+        margin-bottom: 58px;
     }
 
     .partner:nth-child(even) {
@@ -76,7 +76,7 @@
     }
 
     .clickpartners {
-        width: 12rem;
-        margin-left: 18rem;
+        width: 192px;
+        margin-left: 288px;
     }
 }

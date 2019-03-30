@@ -3,7 +3,7 @@
         padding-bottom: 4.625rem;
     }
     .container {
-        width: 90rem;
+        max-width: 90rem;
     }
     .but{
         left: 71%;
