@@ -1,0 +1,57 @@
+@media(min-width: 90rem) {
+    body {
+        padding-bottom: 4.625rem;
+    }
+
+    .backgr {
+        margin-bottom: 4.375rem;
+        padding: 21.875rem 0 21.875rem 0;
+    }
+
+    .but {
+        left: 71%;
+        top: 6%;
+    }
+
+    .logo {
+        left: 23%;
+        top: 6%;
+        transform: translateX(-50%);
+    }
+
+    .info {
+        width: 31.5rem;
+        top: 29%;
+    }
+
+    .title {
+        font-size: 3.25rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .Two {
+        font-size: 1.5rem;
+        margin-bottom: 2.1875rem;
+    }
+
+    .clickInfo {
+        width: 14.0625rem;
+        margin-left: 8rem;
+    }
+
+    .title2 {
+        margin-bottom: 2.125rem;
+    }
+
+    .nameorder {
+        order: 1;
+    }
+
+    .nameorder2 {
+        order: 1;
+    }
+
+    .clickpartners {
+        width: 100%;
+    }
+}
