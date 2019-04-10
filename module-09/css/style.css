@@ -69,7 +69,7 @@ body {
 
 /* header */
 
-.cont {
+.background{
     padding: 0;
 }
 
@@ -100,18 +100,23 @@ body {
     font-family: 'Montserrat';
     font-weight: 700;
     background-color: transparent;
+    border-radius: 1.125rem;
+    border: 0.125rem solid rgba(255, 255, 255, 0);
+    width: 5.625rem;
+    height: 2.25rem;
+
 }
 
 .clickOne {
     margin-right: 1.25rem;
-    border: none;
     text-transform: capitalize;
 }
 
-.clickTwo {
-    width: 5.625rem;
-    height: 2.25rem;
-    border-radius: 1.125rem;
+.clickOne:hover {
+    border: 0.125rem solid rgb(255, 255, 255);
+}
+
+.clickTwo:hover {
     border: 0.125rem solid rgb(255, 255, 255);
 }
 
