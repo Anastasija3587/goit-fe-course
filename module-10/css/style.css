@@ -15,6 +15,13 @@
     padding-bottom: 232px;
 }
 
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+    .header__background{
+        background: linear-gradient(rgba(243, 129, 129, 0.781), rgba(252, 227, 138, 0.699)), url(../img/Layer\ 15@1X.png);
+    }
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -29,7 +36,7 @@
 .navigation__logo{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-family: Mont;
+    font-family: 'Mont';
     font-size: 30px;
     font-weight: 700;
 }
@@ -45,7 +52,7 @@
 .list__items{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-family: Mont;
+    font-family: 'Mont';
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -66,7 +73,7 @@
 
 .welcome__p{
     margin-bottom: 42px;
-    font-family: Kaush;
+    font-family: 'Kaush';
     font-size: 72px;
     color: rgb(255, 255, 255);
 
@@ -74,7 +81,7 @@
 
 .welcome__title{
     margin-bottom: 124px;
-    font-family: Mont;
+    font-family: 'Mont';
     font-size: 143px;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -85,13 +92,13 @@
 .welcome__btn{
     color: rgb(255, 255, 255);
     font-size: 14px;
-    font-family: Mont;
+    font-family: 'Mont';
     font-weight: 700;
     padding: 14px 32px 14px 32px;
     border: 3px solid rgb(255, 255, 255);
     text-transform: uppercase;
     background-color: transparent;
-
+    cursor: pointer;
 }
 
 .container__service{
@@ -110,12 +117,22 @@
 }
 
 .container__titleTwo{
-    margin-bottom: 110px;
     text-align: center;
     font-family: Mont;
     font-size: 30px;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.container__titleTwo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 570px;
+    margin-top: 45px;
+    margin-bottom: 55px;
 }
 
 .service__items{
@@ -137,7 +154,7 @@
 
 .text__title{
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mont';
     color: rgb(51, 51, 51);
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -145,10 +162,191 @@
 
 .text__description{
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     color: rgb(153, 153, 153);
-    line-height: 1.1;
 }
+
+.container__p{
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: rgb(153, 153, 153);
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.container__team{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 82px;
+}
+
+.team__foto{
+    margin-bottom: 30px;
+    transition: all 200ms linear;
+    width: 380px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__fotoOne{
+    background-image: url(../img/1.png);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+    .team__fotoOne{
+        background-image: url(../img/1.png);
+    }
+}
+
+.team__fotoTwo{
+    background-image: url(../img/2.png);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+    .team__fotoTwo{
+        background-image: url(../img/2.png);
+    }
+}
+
+.team__fotoThree{
+    background-image: url(../img/3.png);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+    .team__fotoThree{
+        background-image: url(../img/3.png);
+    }
+}
+
+.team__name{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Mont';
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team__position{
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-style: italic;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+
+.foto__inner{
+    width: 224px;
+    height: 56px;
+    display: none;
+    background-color: rgb(252, 227, 138);
+}
+
+.inner__ic{
+    outline: 1px solid rgba(243, 129, 129, 0.384);
+    width: 56px;
+    padding: 15px 20px 15px 23px;
+}
+
+.inner__facebook{
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inner__twit{
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inner__pin{
+    background-image: url(../img/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inner__insta{
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team__itemOne:hover .team__fotoOne{
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767), rgba(252, 227, 138, 0.699)), url(../img/1.png);
+}
+
+.team__itemTwo:hover .team__fotoTwo{
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767), rgba(252, 227, 138, 0.699)), url(../img/2.png);
+}
+
+.team__itemThree:hover .team__fotoThree{
+    transform: translate(-12px, -12px);
+    box-shadow: 12px 12px rgb(79, 228, 198);
+    transition: all 200ms linear;
+    background: linear-gradient(rgba(243, 129, 129, 0.767), rgba(252, 227, 138, 0.699)), url(../img/3.png);
+}
+
+.team__item:hover .foto__inner{
+    display: flex;
+}
+
+.inner__ic:hover{
+    background-color: rgb(79, 228, 198);
+}
+
+.container__footer{
+    padding: 12px 0 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(231, 231, 231);
+}
+
+.footer__text{
+    font-family: 'Mont';
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+
+.footer__textSpan{
+    color: rgb(255, 0, 0);
+}
+
+.button__email{
+    width: 230px;
+    height: 40px;
+    border: 1px 0 1px 1px solid rgb(231, 231, 231);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(204, 204, 204);
+    padding-left: 13px;
+}
+
+.button__subscribe{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(79, 228, 198);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+
+
 
   
 
