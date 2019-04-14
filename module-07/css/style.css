@@ -2,19 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 0.0625rem solid rgb(127, 178, 255); */
+    /* outline: 1px solid rgb(127, 178, 255); */
 }
 
 html {
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 body {
-    padding-top: 2.75rem;
+    padding-top: 44px;
 }
 
 .container {
-    max-width: 58.625rem;
+    max-width: 938px;
     margin: auto;
 }
 
@@ -23,20 +23,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 8rem;
+    margin-bottom: 128px;
 }
 
 .list {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 30rem;
+    width: 480px;
 }
 
 .color {
     font-family: 'Mont';
     font-weight: 700;
-    font-size: 0.875rem;
+    font-size: 14px;
     text-decoration: none;
     color: rgba(63, 63, 63, 0.986);
     text-transform: uppercase;
@@ -46,7 +46,7 @@ body {
     text-decoration: none;
     font-family: 'Dancing';
     font-weight: 600;
-    font-size: 2.25rem;
+    font-size: 36px;
     color: rgb(254, 211, 54);
 }
 
@@ -57,7 +57,7 @@ body {
 /* main */
 .title {
     font-family: 'Mont';
-    font-size: 2.5rem;
+    font-size: 40px;
     text-transform: uppercase;
     color: rgb(34, 34, 34);
     font-weight: 800;
@@ -66,23 +66,23 @@ body {
 
 .text {
     font-family: 'Roboto';
-    font-size: 1rem;
+    font-size: 16px;
     color: rgb(119, 119, 119);
     font-style: italic;
     text-align: center;
-    margin-bottom: 4.875rem;
+    margin-bottom: 78px;
 }
 
 .info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 7.5rem;
+    margin-bottom: 120px;
 }
 
 .serv1,
 .serv2,
 .serv3 {
-    width: 17.125rem;
+    width: 274px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,21 +90,21 @@ body {
 
 .icon {
     border-radius: 50%;
-    border: 0.1875rem solid rgb(254, 211, 54);
-    margin-bottom: 1.75rem;
+    border: 3px solid rgb(254, 211, 54);
+    margin-bottom: 28px;
 }
 
 h3 {
     font-family: 'Mont';
-    font-size: 1.125rem;
+    font-size: 18px;
     color: rgb(34, 34, 34);
     font-weight: 800;
-    margin-bottom: 0.9375rem;
+    margin-bottom: 15px;
 }
 
 .description {
     font-family: 'Roboto';
-    font-size: 0.829rem;
+    font-size: 13.264px;
     color: rgb(119, 119, 119);
     text-align: center;
 }
@@ -112,23 +112,23 @@ h3 {
 .contacts {
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 42.25rem;
+    height: 676px;
     position: relative;
 }
 
 .map {
     position: absolute;
-    right: -2.9375rem;
-    top: 7.1875rem;
+    right: -47px;
+    top: 115px;
 }
 
 .contacts {
-    padding-top: 6.875rem;
+    padding-top: 110px;
 }
 
 .title2 {
     font-family: 'Mont';
-    font-size: 2.5rem;
+    font-size: 40px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: 800;
@@ -138,7 +138,7 @@ h3 {
 .name {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.875rem;
+    margin-bottom: 30px;
 }
 
 form {
@@ -147,12 +147,12 @@ form {
 }
 
 .input-name {
-    width: 28.4375rem;
-    height: 3.125rem;
-    margin-bottom: 1.75rem;
-    padding-left: 1.25rem;
+    width: 455px;
+    height: 50px;
+    margin-bottom: 28px;
+    padding-left: 20px;
     border: none;
-    border-radius: 0.1875rem;
+    border-radius: 3px;
 }
 
 input:last-child {
@@ -161,42 +161,42 @@ input:last-child {
 
 ::placeholder {
     font-family: 'Mont';
-    font-size: 0.875rem;
+    font-size: 14px;
     color: rgb(187, 187, 187);
     font-weight: 700;
     text-transform: uppercase;
 }
 
 textarea {
-    width: 28.4375rem;
-    height: 13.125rem;
+    width: 455px;
+    height: 210px;
     border: none;
-    border-radius: 0.1875rem;
-    padding-left: 1.25rem;
-    padding-top: 1.25rem;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 20px;
     position: relative;
     z-index: 9;
 }
 
 .click {
-    width: 15rem;
-    height: 4.125rem;
+    width: 240px;
+    height: 66px;
     background-color: rgb(254, 211, 54);
     border: none;
-    border-radius: 0.1875rem;
+    border-radius: 3px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
-    font-size: 1.125rem;
+    font-size: 18px;
     font-family: 'Mont';
     font-weight: 600;
-    margin-left: 21.875rem;
+    margin-left: 350px;
     cursor: pointer;
 }
 
 :required:valid {
-    outline: 0.25rem solid rgb(0, 128, 0);
+    outline: 4px solid rgb(0, 128, 0);
 }
 
 :required:invalid {
-    outline: 0.25rem solid rgb(243, 11, 11);
+    outline: 4px solid rgb(243, 11, 11);
 }
