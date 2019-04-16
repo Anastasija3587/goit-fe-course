@@ -325,7 +325,7 @@
     width: 230px;
     height: 40px;
     border: 1px 0 1px 1px solid rgb(231, 231, 231);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 15px;
     color: rgb(204, 204, 204);
     padding-left: 13px;
@@ -336,7 +336,7 @@
     height: 40px;
     background-color: rgb(79, 228, 198);
     border: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mont';
     color: #ffffff;
     font-size: 14px;
     font-weight: bold;
