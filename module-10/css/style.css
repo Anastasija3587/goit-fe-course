@@ -24,9 +24,9 @@
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi){
     .header__background{
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 129, 129, 0.781)), to(rgba(252, 227, 138, 0.699))), url(../img/Layer\ 15@1X.png);
-        background: -webkit-linear-gradient(rgba(243, 129, 129, 0.781), rgba(252, 227, 138, 0.699)), url(../img/Layer\ 15@1X.png);
-        background: -o-linear-gradient(rgba(243, 129, 129, 0.781), rgba(252, 227, 138, 0.699)), url(../img/Layer\ 15@1X.png);
-        background: linear-gradient(rgba(243, 129, 129, 0.781), rgba(252, 227, 138, 0.699)), url(../img/Layer\ 15@1X.png);
+        background: -webkit-linear-gradient(rgba(243, 129, 129, 0.781), rgba(252, 227, 138, 0.699)), url(../img/picture@2x.png);
+        background: -o-linear-gradient(rgba(243, 129, 129, 0.781), rgba(252, 227, 138, 0.699)), url(../img/picture@2x.png);
+        background: linear-gradient(rgba(243, 129, 129, 0.781), rgba(252, 227, 138, 0.699)), url(../img/picture@2x.png);
     }
 }
 
@@ -241,7 +241,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi){
     .team__fotoOne{
-        background-image: url(../img/1.png);
+        background-image: url(../img/1@2x.png);
     }
 }
 
@@ -251,7 +251,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi){
     .team__fotoTwo{
-        background-image: url(../img/2.png);
+        background-image: url(../img/2@2x.png);
     }
 }
 
@@ -261,7 +261,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi){
     .team__fotoThree{
-        background-image: url(../img/3.png);
+        background-image: url(../img/3@2x.png);
     }
 }
 
