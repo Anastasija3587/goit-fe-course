@@ -127,7 +127,7 @@
 }
 
 /* main */
-.container__service{
+.service{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -178,14 +178,14 @@
 
 }
 
-.items__icon{
+.service__icon{
     width: 32px;
     height: 32px;
     margin-right: 28px;
     fill: rgb(26, 188, 156);
 }
 
-.text__title{
+.service__title{
     font-size: 14px;
     font-family: 'Mont';
     color: rgb(51, 51, 51);
@@ -193,7 +193,7 @@
     margin-bottom: 20px;
 }
 
-.text__description{
+.service__description{
     font-size: 15px;
     font-family: 'Roboto';
     color: rgb(153, 153, 153);
@@ -207,7 +207,7 @@
     text-align: center;
 }
 
-.container__team{
+.team{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -282,7 +282,7 @@
     text-align: center;
 }
 
-.foto__inner{
+.inner{
     width: 224px;
     height: 56px;
     display: none;
@@ -358,7 +358,7 @@
     background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)), url(../img/3.png);
 }
 
-.team__item:hover .foto__inner{
+.team__item:hover .inner{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -369,7 +369,7 @@
 }
 
 /* footer */
-.container__footer{
+.footer{
     padding: 12px 0 12px 0;
     display: -webkit-box;
     display: -ms-flexbox;
